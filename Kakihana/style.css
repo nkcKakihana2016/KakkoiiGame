@@ -5,11 +5,28 @@
 
 header{
     border:dashed 1px;
+    height: 50px;
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: orange;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.justify{
+    display:flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.text{
+       font-weight:bold; 
 }
 
 #sidenavi{
     float: right;
-    width: 198px;
+    width:  198px;
     height: 498px;
     border:dashed 1px #999;
     margin: 10px 10px 10px 0px;
