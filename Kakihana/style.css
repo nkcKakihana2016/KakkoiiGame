@@ -14,6 +14,7 @@ header{
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1;
 }
 .justify{
     display:flex;
@@ -28,23 +29,33 @@ header{
 #sidenavi{
     float: right;
     width: 328px;
-    height: 498px;
+    height: auto;
     border:dashed 1px #999;
     margin: 10px 10px 10px 0px;
+}
+
+#sidenavi h1{
+    margin: 40px 10px 10px 0px;
+text-align: center;
 }
 
 #contents{
     float: left;
     width: 618px;
-    height: 498px;
+    height: auto;
     border: dashed 1px #999;
     margin: 10px 0px 10px 0px;
+}
+
+#contents h1{
+    margin: 40px 10px 10px 0px;
+text-align: center;
 }
 
 .patcontents{  
     width: 95%;
     height: 70%;
-    margin: 5px 5px 5px 5px;
+    margin: 10px 5px 5px 5px;
     background-color:ghostwhite;
 }
 
