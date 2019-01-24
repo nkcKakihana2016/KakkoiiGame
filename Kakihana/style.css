@@ -26,6 +26,13 @@ header{
        font-weight:bold; 
 }
 
+#toppage{
+    width: 980px;
+    height: auto;
+    background-color:ghostwhite;
+    margin: 55px 10px 10px 0px;
+}
+
 #sidenavi{
     float: right;
     width: 328px;
