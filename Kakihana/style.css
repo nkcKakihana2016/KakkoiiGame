@@ -2,6 +2,9 @@
     width: 960px;
     margin: 0px auto;
 }
+body{
+    background-image:url("../image/%E8%83%8C%E6%99%AF.gif");
+}
 
 header{
     border:dashed 1px;
@@ -45,6 +48,7 @@ text-align: center;
     height: auto;
     border: dashed 1px #999;
     margin: 10px 0px 10px 0px;
+    background-color: rgba(255,255,255,0.5);
 }
 
 #contents h1{
@@ -56,7 +60,7 @@ text-align: center;
     width: 95%;
     height: 70%;
     margin: 10px 5px 5px 5px;
-    background-color:ghostwhite;
+    background-color:rgba(255,255,255,0.5);
 }
 
 .patcontents h2{
@@ -70,7 +74,7 @@ text-align: center;
     padding: 0.5em 1em;
     text-decoration: none;
     border-radius: 4px;
-    color: #ffffff;
+    color:#ffffff;
     background-image: -webkit-linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
     background-image: linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
@@ -91,6 +95,8 @@ text-align: center;
     width: 480px;
     height: 320px;
     position: relative;
+     margin-left: auto;
+    margin-right: auto;
 }
 
 .maintrim img{
