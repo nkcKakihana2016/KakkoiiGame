@@ -28,6 +28,9 @@ header{
 .text{
        font-weight:bold; 
 }
+.TextColor{
+    color: whitesmoke;
+}
 
 #sidenavi{
     float: right;
@@ -35,6 +38,7 @@ header{
     height: auto;
     border:dashed 1px #999;
     margin: 10px 10px 10px 0px;
+    background-color: rgba(255,255,255,0.5);
 }
 
 #sidenavi h1{
